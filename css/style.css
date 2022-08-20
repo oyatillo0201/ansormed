@@ -347,3 +347,34 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+
+.site-footer__list {
+display: flex;
+align-items: center;
+list-style: none;
+}
+
+.site-footer__item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.site-footer__link {
+  display: inline-block;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.site-footer__link:hover {
+  color: #DE2E54;
+}
+
+.site-footer__link:active {
+  opacity: 0.6;
+}
